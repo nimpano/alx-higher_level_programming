@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 str = "Holberton School"
 print( str * 3)
-print(f'{str:.9s}')
+print(f'{str[0:9:1]}') *# slicing the string *#
+
+
 
 
