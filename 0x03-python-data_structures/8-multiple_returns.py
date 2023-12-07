@@ -1,8 +1,5 @@
-#!/usr/bin/pyrthon3
-
-#include "LIST_H"
-
+#!/usr/bin/python3
 def multiple_returns(sentence):
-	if not sentence:
-		return (0, None)
-	return (len(sentence), sentence[0])
+    if not sentence:
+        return (0, None)
+    return (len(sentence), sentence[0])
